@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+<head th:include="fragments/layout :: headerFragment">
+    <title id="pageTitle">Studenti</title>
+</head>
+<body>
+    <div class="container">
+        <h1>
+            Zdravo, <span th:text="${username}"></span>!
+        </h1>
+        <table class="table">
+            <thead>
+            <tr>
+                <th>Indeks</th>
+                <th>Ime</th>
+                <th>Datum Upisa</th>
+            </tr>
+            </thead>
+            <tbody>
+                <tr th:each="s : ${students}">
+                    <td th:text="${#dates.format(s.enrollmentDate, 'yyyy') + s.index}"></td>
+                    <td th:text="${s.name}"></td>
+                    <td th:text="${#dates.format(s.enrollmentDate, 'dd.MM.yyyy')}"></td>
+                </tr>
+            </tbody>
+        </table>
+
+        <a class="btn btn-primary" href="/logout">Odjava</a>
+    </div>
+</body>
+</html>
