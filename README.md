@@ -8,7 +8,7 @@ Vec konfigurisan realm mozete importovati koriscenjem **realm-export.json** fajl
 
 #### 1 Kreacija Realma
 
-![Realm Creation](https://i.imgur.com/HKCaRT3.png =20x20)
+![Realm Creation](https://i.imgur.com/HKCaRT3.png)
 
 #### 2 Kliknete na select file i izaberete realm-export.json da bi ste importovali
 
