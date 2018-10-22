@@ -7,7 +7,7 @@
 Vec konfigurisan realm mozete importovati koriscenjem **realm-export.json** fajla. Uputstvo za importovanje se nalazi ispod.
 
 #### 0 [Preuzmi KeyCloak Standalone Server](https://www.keycloak.org/downloads.html)
-Na windows masinama se porece `bin\standalone.bat` a na linux `./bin/standalone`, kada se pokrene, posetite http://localhost:8080 i kreirajte admin nalog.
+Na windows masinama se porece `bin\standalone.bat` a na linux `./bin/standalone`, kada se pokrene, posetite http://localhost:8080gi i kreirajte admin nalog.
 
 #### 1 Kreacija Realma
 
