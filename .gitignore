@@ -25,4 +25,5 @@
 /.nb-gradle/
 
 local.properties
-
+bin/
+.vscode/

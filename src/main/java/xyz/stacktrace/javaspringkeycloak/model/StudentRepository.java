@@ -18,4 +18,11 @@ public class StudentRepository {
     public List<Student> getStudents() {
         return students;
     }
+
+    public Student getSingle(long index) {
+        return students.stream()
+                    .filter(s -> s.getIndex() == index)
+                    .findFirst()
+                    .orElse(null);
+    }
 }
